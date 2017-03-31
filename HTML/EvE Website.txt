@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+    <!--Defines document as HTML5--> 
+    <head>
+        <style>
+            body{
+                background: url("http://pozniak.pl/wp/wp-content/uploads/2012/01/zephyr-wallpaper.jpg");
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                text-align: center;     
+                color: white;
+                font-family: Helvetica;
+             } 
+            p{
+                font-size: 12px;
+                text-align: left;
+            }
+            h2{
+                font-size: 18px;
+                text-align: left;
+            }
+            h3{
+                font-size: 18px;
+                text-align: left;
+            }
+            h4{
+                font-size: 18px;
+                text-align: left;
+            }
+        </style>
+     </head>
+     <body>
+     <h1>Netan's noob guide to EvE Online</h1>
+     <p>Hello everyone! This is my general noobs guide to the MMO game EvE Online, this is not intended to  be all inclusive but should enhance your beginners gaming experience (And hopefully help you to lose less ISK!). </p>
+     <h2>Hello World!</h2>
+     <p>One you first start the game, all you will have is a simple pod, whenever you leave your ship while docked in a station or if your ship is destroyed you will be flying in this pod. Your pod has minimal shielding and armor so destroying it is very easy if you are attacked and I suggest using a shuttle if you need to get from A to B (To pick up and dock with another ship for example), shuttles are very cheap (Around 20,000 ISK) and require no skills to fly.</p>
+     <p>When you start the game, an agent named Aura will be giving you a tutorial on various aspects of the game and how to play it, she will also give you a rookie ship which will always be given to you free of charge if you dock in a station in a pod that doesn't have any other ships that you own in it. Once you are done with Aura, I'd recommend completing a few missions from various agents when docked in a station, they can be found in the lower right hand corner of the station screen, they will give you various amounts of ISK, modules that you can use on your ship and sometimes even whole ships that you can use!</p>
+     <h3>ISK and Mining</h3>
+     <p>ISK, or InterSteller Kredits are the cash that is used in the EvE universe, there are many ways to make ISK in the game including Mining, Trade, Piracy, Bounty Hunting, Mission Running, Planetary Interaction, Salvaging, Plexing and many more. The primary way to make money as a beginner is through mining, mining is the least interesting of the ways to make ISK in the game making the first few weeks slow, but once you start to be able to afford quality ships you can take on other forms of playing the game. In order to mine, you need to obtain a Mining Skill Book and 'Learn' at least the first level of it in order to operate mining lasers, these mining lasers allow the user to extract ore from asteroids in asteroid belts. This ore can either be sold on the market as is or can be refined and you can sell the minerals in the ore, the latter is not wise to do in the early stages of the game because you lose materials from refining without proper skills and you will be losing ISK (I have trained my skills so that I lose very little money by refining, ore is very large so it is more efficent for me to ship when it is smaller). Each ore type has three variations to it, for example the ore Scordite has Scordite, Condensed Scordite, and Massive Scordite, as you go down the list the ore becomes more valuable (Usually) and the refining yeald is greater, I personally advise mining Rich Plagioclase or Massive Scordite, if these are unavailable then you can always mine variations of Veldspar. As a general word of thumb, the closer the first letter of a category of ore is to the letter 'A', than the more valuable it is (Arkonor is worth more than Veldspar).</p>
+     <h4>Ships</h4>
+     <p>As you may have noticed, there are many ships to choose from in the EvE Universe, while you do not receive bonuses for various races in EvE, the ships of each race usually receive bonuses that relate to each race.
+     </p>
+     <p>The Amarr Empire: The Ammarians specialize in laser weaponery, while lasers (Pulse Lasers are short range and Beam Lasers are long ranged) are good for dealing EM and Thermal damage (Which a standard shield has a low resistance to) and don't need to be reloaded, they use up the most capacitor which is crucial for your ships ability to have a strong tank against incoming damage, Amarr ships are one of the faster races in the game and is characterized by a yellow hull.</p>
+     <p>The Caldari State: The Caldari primarly use missiles for damage, missiles are good in the fact that they will always hit their target unlike turrets, but one must consider the speed and signature radius (A modifiable hitbox in a sense) of their target. The Caldari have great range bonuses on the Railgun Hybrid Turret making them very effective at long ranges but relatively innefective at close range since Railguns don't have the best tracking (How fast the turret can move to follow a target). The Caldari also specialize in shield tanking giving them better shield resistances and larger shields, their ships usually have a grayish blue hull. </p>
+     <p>The Gallente Federation: The Gallente specialize in Drone use and Blaster Hybrid Turrets which provide massive damage, their large drone bays allow for repeated waves of drones or the ability to switch out various types of drones such as combat, Electronics jamming, salvaging, etc. They get damage bonuses on their Blasters making them deadly at close range and lean towards armor tanking (Which frees up mid-slots for Electronic Warfare [EWAR] opposed to shield tanking), Gallente ships are usually the slowest and have aqua green hulls.
+     </p>
+     <p>The Minmatar Republic: Minmatar ships are very versitile taking advantage of missile, drone, and turret damage but specializing in Projectile Turrets (Autocannons which are short ranged and Artillery which are long ranged) and speed, but their shield and armor is reletively weak. If you know how to fly their ships well, then they will work well for multipurpose ships, their hulls are a rusty red color.</p>
+    </body>

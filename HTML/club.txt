@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+    <!--Defines document as HTML5--> 
+    <head>
+        <style>
+            body{
+                background: url("http://pozniak.pl/wp/wp-content/uploads/2012/01/zephyr-wallpaper.jpg");
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                text-align: center;     
+                color: white;
+                font-family: Helvetica;
+             } 
+            p{
+                font-size: 24px;
+            }
+            p1{
+                text-align: center;
+                font-size: 18px;
+                color: aqua;
+            }
+            input{
+                border: 1;
+                padding: 12px;
+                font-size: 18px;
+            }
+            input[type="submit"]{
+                background: limegreen;
+                color: black;
+        </style>
+     </head>
+     <!-- Aligns header to be in the center, it is called on         by the h1 selector and is within the <style> modifier,           you can use center, left, right, or justify. Background          changes the background color relative to the variable. Fixed     attachment keeps the background from scrolling with the page    -->
+     <body>
+     <!--<img src="http://th00.deviantart.net/fs70/PRE/f/2012/267/9/2/hyasyoda_naga_by_kittyhawks-d5fu0ka.jpg" height="250" width="250">--->
+     <h1>Cerniglia's Page</h1>
+     <!-- <h> creates a header and the / ends it -->
+     <p>Occupation: Electrical engineer and MMO gamer.</p>
+     <p>I am currently...writing this program!</p>
+     <!-- <p> makes a paragraph statement-->
+     <p>Bio: I was originally born in New York and after 4 years I moved to Seattle, Washington (Go Hawks!!!), I lived there for 10 years then I moved to hell on earth, Tucson.</p>
+     <p>And for future reference</p>
+     <p>|</p>
+     <p>V</p>
+     <img src="http://www.allspectrum.com/biz-cards/Resistor-color-code-chart-All-Spectrum-Electronics.jpg"
+     <p>Please provide your e-mail for me to be able to          contact you: <input type="email" placeholder="Your email"> </p1>
+     <!-- Creates a spot to enter in the e-mail, placeholder     puts in gray letters in the input box-->
+     <input type="submit">
+     <p>BTW I have no idea where your e-mails go :D</p>
+     <!-- Creates a submit button-->
+    <!-- designates all text from <body> to </body> as body, not h1 and p-->
+    <p1>Seahawks fan all the way! GO HAWKS!</p1> 
+    <img src="http://cdn2.sbnation.com/assets/3949077/MEME.jpg" HEIGHT="300" WIDTH="500" style="float:center">
+
+   </body>

@@ -1,0 +1,10 @@
+' {$STAMP BS2}
+' {$PBASIC 2.5}
+
+time VAR Word
+DO
+PULSIN 15,1, time
+time = time / 50'divide by 10 to get ms
+DEBUG CLS
+DEBUG DEC time
+LOOP

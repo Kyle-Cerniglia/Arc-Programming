@@ -1,0 +1,14 @@
+7:15 AM 10/7/14
+CPU:1%
+RAM: 1.52GB
+Number: 3055931
+
+4:00
+6066889
+
+3010958 operations in 8.75 hours
+
+344109 operations/hour
+5735 operations/min
+95 operations/second
+0.01 seconds/operation or 10ms/operation

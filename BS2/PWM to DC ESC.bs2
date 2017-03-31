@@ -1,0 +1,69 @@
+' {$STAMP BS2}
+' {$PBASIC 2.5}
+
+time VAR Word
+DO
+PULSIN 15,1, time
+time = time / 5'divide by 100 to get ms
+DEBUG CLS
+DEBUG DEC time
+
+IF time > 138 OR time < 10 THEN
+  LOW 5
+ELSE
+  HIGH 5
+ENDIF
+
+IF (time >= 140 AND time < 145) OR (time <= 135 AND time > 130) THEN
+  HIGH 10
+  PAUSE 1
+  LOW 10
+  PAUSE 9
+ELSEIF (time >= 145 AND time < 150) OR (time <= 130 AND time > 125) THEN
+  HIGH 10
+  PAUSE 2
+  LOW 10
+  PAUSE 8
+ELSEIF (time >= 150 AND time < 155) OR (time <= 125 AND time > 120) THEN
+  HIGH 10
+  PAUSE 3
+  LOW 10
+  PAUSE 7
+ELSEIF (time >= 155 AND time < 160) OR (time <= 120 AND time > 115) THEN
+  HIGH 10
+  PAUSE 4
+  LOW 10
+  PAUSE 6
+ELSEIF (time >= 160 AND time < 165) OR (time <= 115 AND time > 110) THEN
+  HIGH 10
+  PAUSE 5
+  LOW 10
+  PAUSE 5
+ELSEIF (time >= 165 AND time < 170) OR (time <= 110 AND time > 105) THEN
+  HIGH 10
+  PAUSE 6
+  LOW 10
+  PAUSE 4
+ELSEIF (time >= 170 AND time < 175) OR (time <= 105 AND time > 100) THEN
+  HIGH 10
+  PAUSE 7
+  LOW 10
+  PAUSE 3
+ELSEIF (time >= 175 AND time < 180) OR (time <= 100 AND time > 95) THEN
+  HIGH 10
+  PAUSE 8
+  LOW 10
+  PAUSE 2
+ELSEIF (time >= 180 AND time < 185)THEN
+  HIGH 10
+  PAUSE 9
+  LOW 10
+  PAUSE 1
+ELSEIF time >= 185 OR (time <= 95 AND time > 10) THEN
+  HIGH 10
+ELSEIF time <= 10 THEN
+  LOW 10
+ELSE
+  LOW 10
+ENDIF
+LOOP

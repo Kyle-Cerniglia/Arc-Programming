@@ -1,0 +1,7 @@
+# is: 4303187143
+Starting at : 4:23 10/17/14
+440000000 at 6:00
+
+would take 975000 hours, to solve max on both variables.
+40625 days
+114.1 years
