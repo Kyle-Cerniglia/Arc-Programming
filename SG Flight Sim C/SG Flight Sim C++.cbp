@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SG Flight Sim C++" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SG Flight Sim C++" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SG Flight Sim C++" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add library="winmm" />
+		</Linker>
+		<Unit filename="catalogcelestial.cpp" />
+		<Unit filename="catalogcelestial.h" />
+		<Unit filename="catalogcelestialdisplay.cpp" />
+		<Unit filename="catalogcelestialdisplay.h" />
+		<Unit filename="catalogentity.cpp" />
+		<Unit filename="catalogentity.h" />
+		<Unit filename="catalogindustry.cpp" />
+		<Unit filename="catalogindustry.h" />
+		<Unit filename="catalogship.cpp" />
+		<Unit filename="catalogship.h" />
+		<Unit filename="catalogweapon.cpp" />
+		<Unit filename="catalogweapon.h" />
+		<Unit filename="console.cpp" />
+		<Unit filename="console.h" />
+		<Unit filename="ent1position.cpp" />
+		<Unit filename="ent1position.h" />
+		<Unit filename="entityconsole.cpp" />
+		<Unit filename="entityconsole.h" />
+		<Unit filename="gamemenu.cpp" />
+		<Unit filename="gamemenu.h" />
+		<Unit filename="gui.cpp" />
+		<Unit filename="gui.h" />
+		<Unit filename="help.cpp" />
+		<Unit filename="help.h" />
+		<Unit filename="hitboxcollision.cpp" />
+		<Unit filename="hitboxcollision.h" />
+		<Unit filename="hyperdrive.cpp" />
+		<Unit filename="hyperdrive.h" />
+		<Unit filename="keyinput.cpp" />
+		<Unit filename="keyinput.h" />
+		<Unit filename="laserfire.cpp" />
+		<Unit filename="laserfire.h" />
+		<Unit filename="locationload.cpp" />
+		<Unit filename="locationload.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="missilefire.cpp" />
+		<Unit filename="missilefire.h" />
+		<Unit filename="moduledamage.cpp" />
+		<Unit filename="moduledamage.h" />
+		<Unit filename="navigation.cpp" />
+		<Unit filename="navigation.h" />
+		<Unit filename="opengl1.h" />
+		<Unit filename="opengltest.h" />
+		<Unit filename="railsmentity.cpp" />
+		<Unit filename="railsmentity.h" />
+		<Unit filename="raycasting1.cpp" />
+		<Unit filename="raycasting1.h" />
+		<Unit filename="shieldregen.cpp" />
+		<Unit filename="shieldregen.h" />
+		<Unit filename="shipload.cpp" />
+		<Unit filename="shipload.h" />
+		<Unit filename="shipmodulestatus.cpp" />
+		<Unit filename="shipmodulestatus.h" />
+		<Unit filename="testsettings.cpp" />
+		<Unit filename="testsettings.h" />
+		<Unit filename="weaponfire.cpp" />
+		<Unit filename="weaponfire.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

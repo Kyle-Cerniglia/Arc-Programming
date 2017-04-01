@@ -1,0 +1,391 @@
+General ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+modes of realism
+better screen refresh
+test the entity launch system
+if successful, recreate it for missiles as well and mod as needed
+add targeting system
+include modules and module damage system
+	weapon systems
+	bays
+	microentities for modules
+damage to bleed through shields by % of shield gone, tie in with module damage
+consolidate new entity vars
+	missilefire()
+	weaponfire()
+add [59]dmgrecieve
+add [60]cargo
+hitbox check
+	varify that the program works
+make item catalogs
+fix sound locations
+set all entityinfo[1] to equal -1 to say that no entity info is stored there
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+hyperdrive()
+	get rid of gal round for premature dropping out, still travel forward or back
+	refer to display() for graphics
+catalogcelestial()
+	pegasus galaxy is 3000000LY away from milky way
+catalogship()
+	ship speeds:
+		Destiny
+		Shuttle (Destiny)
+		BC-304 1.93LY/s
+		BC-304(ZPM) 8.68LY/s
+		Wraith 0.0015LY/s max range is 50LY/9hrs
+		Hatak(o) 0.003LY/s
+		Jumper max is 2000 LY at 0.1LY/s*
+		Atlantis(3ZPM) 104.17LY/s
+		Atlantis(1ZPM) 0.14LY/s*
+weaponfire()
+	add key trigger
+	have RPM work
+keyinput()
+	recongfigure fire key trigger
+moduledamage()
+	make hyperdrive stronger and everything else twice as weak
+	make something unique for shields
+	make modifications in that file to the damaged modules as appropriate
+catalogship()
+	finish bonuses
+moduledamage()
+	change radio sound to beacon sound
+	add sound for shields
+navigation()
+	check to see if mods are online
+	drain cap
+shieldregen()
+	modify with new module system
+BUGS ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+navigation()
+	small residual xspeed on early hyperdrive dropout
+NOTES -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+module order
+	hyperdrive
+	sublights
+	manu
+	shields
+	reactor
+	capacitor
+	lrsen
+	srsen
+	beacon
+	life
+	inertia
+	cloak
+VACATION NOTES---------------------------------------------------------------------------------------------------------------------------------------------------------
+Allow for module damage at less than 25% shields
+	chance?
+if module is hit, have chance to damage or destroy it
+aoe explosion if reactor is hit and offlined
+	cause hp and module damage
+external aoe damage only affects external modules
+	turrets
+	sublights
+	manuvering thrusters
+	long range sensors
+	short range sensors
+	subspace beacon
+add a hyperspace chargeup delay
+	add into module stats?
+missile AI
+	missile travels 200m forward, then turns at a constant set turning speed to point at target. detonates on impact with something or runs out of fuel
+asteroids have static positions and respawn randomly after awhile
+have a cargohold
+damaged or destroyed t1 modules can be repaired with the parts that are needed to build them
+	t2 modules have to be repaired (if damaged) or replaced (if offlined) at a station? or they can be replaced on the ship
+manufacturing on stations and special industry ships
+when you enter the atmosphere of a planet, you leave the solar system grid and enter the planet grid at a certain spot, happens again when you leave
+Asteroids were classified with the Thalen Classification system
+each module gives you ship its stats (with the exception of fighters)
+s, m, and l modules
+need the reactor to be online for anything to run
+module stats can be modified as a tradeoff system
+subclasses to t1 module tier
+Rotation equation: t=I*< I=mr^2 t/I=< F/(m*r)=<
+	t=Torque
+	I=Rotational Inertia
+	<=Angular Acceleration (rad/s^2)
+	F=Force (N)
+	m=Mass (kg)
+	r=Radius (M, half of ship length)
+t1 items are made parts
+parts are made from asteroid minerals
+t2 items are made from adding alloys to the t1 version
+when a mod is damaged, 40-60% of the parts are destroyed and can be replaced to repair it
+when a mod is destroyed, 80-90% of the parts are destroyed and can be replaced to repair it
+you can salvage modules to gain their parts
+	makes them damaged or offline
+armor adds hull hp's but increases the ships mass
+Refine ore in batches of 200
+roid size is by units of minerals
+	XS: 1,000-10,000
+	S: 10,000-100,000
+	M: 100,000-1,000,000
+	L: 1,000,000-10,000,000
+	XL: >10,000,000
+asteroids of any type can be any size, but the defined asteriod size is only the most common size
+one unit of ore is 1m3, then there are different densities of minerals
+armor be like, 100mm/300mm/500mm
+Ship Classes
+	Fighter
+		Small and weak short-ranged attack craft. Meant to be launched from stations or ships that can carry them
+		Pre-built ship that cant be modified
+		Small one manned craft
+		<20m
+		self-destruct if the reactor detonates
+		lack sublights, hyperdrive, long range sensors, subspace Beacon, and armor slots
+		have to be repaired in a station, or trashed
+	Frigate
+		Smallest full capacity ship class. Useful as they are nimble and fast
+		Small mods
+		20-60m
+	Destroyer
+		Large frigate that is stronger
+		Small mods
+		60-150m
+	Cruiser
+		Weaker mid sized ship for stronger skirmishes
+		Medium mods
+		200-350m
+	Battlecruiser
+		Medium sized ships that are combat ready and oriented for deep space operations
+		medium mods
+		smallest ship to be able to carry fighters
+		350-600m
+	Battleship
+		Large ship that is not very manuverable, but has many hp's and high firepower
+		large mods
+		600-1000m
+	Carrier
+		Large ship that specialized in carrying large numbers of fighters, relatively weak for their class
+		Large mods
+	Dread
+		Very large ships that are all bang
+		Large mods (Multiples??)
+		>1000m
+	Mining and Industry
+		These ships specialize in mining and deep space operations such as ore processing, alloy creation, and manufacturing of smaller items
+	Freighter
+		Specialize in hauling items
+		medium mods
+		Slow and weak
+	Station
+		In a sense, a very large but permanent ship
+Warp gates within a solar system???
+some ships have a special slot for a special mod (i.e. cloak)
+'dual' class turrets have an auto-tracking feature on the target that they are assigned to
+	groupings and fire control?
+turrets
+	railguns
+		long range
+		slow rmp
+		fast projectile speed
+		some cap usage
+	cannons
+		short range
+		fast rmp
+		medium projectile speed
+		no cap usage
+	lasers
+		medium range
+		continuous beam
+		instant
+		heavy cap usage
+missiles
+	aoe damage
+	limited flight time
+	needs targeting
+	most are shorter range, but have some long range cruise missiles
+aoe weapon?
+	em burst to disrupt targeting and all modules
+	explosive damage from ships being destroyed
+	mines?
+ammo racks are linked to specific weapon mount locations, if they are damaged, then there is a slower reload rate. if they are offline, then the linked weapons cant fire
+ammo
+	Railguns
+		Iron Sabot
+			Weak
+			shorter range
+		Iridium Sabot
+			strong
+			longer range
+		Magnesium Sheathed Sodium Sabot
+			strong
+			medium range
+			extra damage to armor
+	Cannons
+		Iron-Aluminum Round
+			Weak
+			longer range
+		Titanium Round
+			Strong
+			shorter range
+		Tungsten-Carbide Sheathed Cobalt Round
+			Strong
+			medium range
+			extra damage to shields
+	Lasers
+		Focusing Mirror
+			Weak
+			Short range
+		Focusing Lens
+			Medium
+			Long range
+		EM Focusing Field
+			Strong
+			Medium range
+			Extra chance at module damage if hit
+t2 ammo can only be used in t2 guns
+laser ammo lasts 100 shots
+mining
+	High powered, focused lasers are shot at asteroids. the asteroids loose hp's, and as they do, rock fragments of the appropriate size fall off into space. then
+	they either need to be manually collected, or they can be brought to you with tractor beams and then collected
+large ships will be about 15% air
+special mod ideas
+	cloak
+	refinery
+	manufacturing
+	alloys
+	em burst
+		sensor and module disruption
+	spatial destabilization field
+Module functions
+	Hyperdrive
+		Allows for travel through hyperspace
+		easily damaged
+		speed affected by  ship mass
+	Sublights
+		+Z movement
+		+Z acceleration
+	Shield Generator
+		shield protection
+		HP's
+		regen (controlled)
+	Reactor
+		generates power that is sent to the capacitor
+		has the chance to detonate when hit
+	Capacitor
+		stores power that is used by modules
+	Long Range Sensors
+		used for locating remote objects
+	Short Range Sensors
+		used for intrasystem scanning and targeting
+		used to temporarly highlight module locations
+	Subspace Beacon
+		distress beacon that summons NPC assistance, but also makes it easier for players to find you
+	Inertial dampeners
+		dampen flight irregularities to a point
+		max speed and max angular speed (Also based on mass)
+	Manuvering thrusters
+		turning and manuvering
+		non +Z acceleration and angular acceleration
+	ammo rack
+		special cargohold for ammo
+		weapons load ammo from here
+		takes a LONGGGGG time to reload a rack
+			done procedurally, like, one ammo/time
+	life support
+		can either improve, be neutral, or hinder the performance of the crew*
+	cloak*
+		makes ship invisable
+Mass and inertial dampeners affect turning abilities and acceleration
+crew ideas
+	affect auto-tracking turrets
+	affect repair times
+	affect ammo rack reload times
+	affect ammo reload times
+hyperdrive speed affected by mass, median mass for the ship class has a multiplier of 1, if above, the mass is less, the multiplier goes between 1 and 2, or 
+if above, between 0 and 1
+ships can fit modules of their class size or smaller
+ships (that have an armor slot) can fit armor plates
+ship shuts down when reactor is offline and the capacitor is empty
+module measurements are taken from the center
+cap cost to opening a hyperspace corridor
+cap cost to using propulsion
+SR sensors only work in line of sight
+	time delay before disengaging lock
+have a variable check, only go onto the next tick when all threads have finished, timed??
+sublights and manuvering thrusters use consistant, small amount of cap
+weapon mounts are locations for turrets, add to CAD models
+can only deploy structures in solar systems
+NPC's only spawn in solar systems
+AI IDEAS---------------------------------------------------------------------------------------------------------------------------------------------------------------
+project a players future actions and fly to that non-existant point
+hide in asteroids
+	asteroids and other large structures to hide in?
+target ships near its class
+stay on current target if it will die soon, then switch to a better target
+	have a threat assessment, if the threat is too bad, then switch targets sooner, if it isnt bad, then just ignore
+threat assessment: 0=No modifier, 1=VL, 2=L, 3=M, 4=H, 5=VH
+	target size relative to itself
+		<-3 class = 1
+		-2 class = 2
+		-1 class = 3
+		same class = 4
+		+1 class = 5
+		+2 class = 3
+		>3 Class = 2
+		other class = 1
+	weapons
+		dual turrets against smaller ships
+			Enemy turrets:
+			<-3 class = 3
+			-2 class = 2
+			-1 class = 1
+			same class = 0
+			+1 class = 2
+			+2 class = 4
+			>3 class = 3
+		number of weapon mounts (Number of mounts is the threat number)
+	distance
+		0-50km = 5
+		51-100km = 4
+		101-500km = 3
+		501-2000km = 2
+		2001-10000km = 1
+		>10000km = Threat is zero unless special
+
+SR sensor anomalies: 1=VL, 2=L, 3=M, 4=H, 5=VH
+when AI detect a SR sensor anomaly, they will attempt to jump to it, they are more accurate with their jump estimate the stronger the threat level is and the closer
+the signal is, once they jump, they will burn their way towards the signal
+	mining laser use (once laser is turned off, the threat effect lasts for 1 minute)
+		S = 1
+		M = 2
+		L = 3
+	weapons fire (Once weapon ceases firing, the threat level lasts 2 minutes
+		S = 2
+		M = 3
+		L = 4
+	explosions (threat level is based on explosion radius)
+		<5m = 1
+		6-15 = 2
+		16-30m = 3
+		31-50m = 4
+		>50 = 5
+	subspace beacon
+		5
+
+broadcast targets for collaboration
+protected mining operations
+have AI utilize SR sensors for damaging modules
+PROCEDURAL GENERATION--------------------------------------------------------------------------------------------------------------------------------------------------
+Primary generation: Generating the basic set of stars
+Secondary generation: Generating large galactic structures
+Tertiary generation: Generation of things in solar systems as needed, not permanent*
+Galactic:
+	Primary
+		Have the XZ coords of star systems only occurr on sums that equal prime numbers	9,592 * 4 = 38,368
+		Have the Y coord of star systems only occurr on prime numbers			669 * 2 = 1,338		38,368 * 1,338 = 51,336,384
+	Secondary	
+		Add in star clusters after primary generation, delete stars in the radius area then generates a higher volume of stars
+		Add in nebule?
+Stellar (Tertiary):
+	Have the star types be randomly generated, this type then affects the solar system attributes in a controlled-random manner
+	Planets and their moons generate based on controlled-random factors
+	Structures and stations generate randomly
+	Asteroids spawn properly, but composition is based ont he star metal amount
+
+Galactic coordinates:
+	Sun to the left of the buldge, looking down, XY is normal, then +Z is above the plane, and -Z is below the plane
+
+Local accurate cluster (Use this for beginning game?) Add in earth as the starting system along with the local stars, earth is at (-27,000,0,0) (38 stars plus the sun)

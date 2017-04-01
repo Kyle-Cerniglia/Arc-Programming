@@ -1,0 +1,51 @@
+#include "railsmentity.h"
+
+#include <iostream>
+#include <stdio.h>
+
+
+using namespace std;
+
+int railsmentitycount = 0;
+double railsmentitydistance = 0;
+double railsmentitydistancetotal = 0;
+double basetrigtemp = 0;//Temporary var for the x/z trig calculation
+extern int railsm[];
+//extern int railsmentity[][100];
+int railsmentity[7][100];
+
+railsmentity::railsmentity()
+{
+    printf("%d", railsmentity[6][2]);
+    while(railsmentitycount <= 100){//Limits program to only going throught the list once per tick
+            if(railsmentitydistancetotal < railsm[5] && railsmentity[0][railsmentitycount] == 1){//If the entity is still active
+                railsmentitydistance = railsmentity[6][railsmentitycount] / 100;//Change in position for the tick
+                railsmentity[2][railsmentitycount] = railsmentity[2][railsmentitycount] + railsmentitydistance * sin(railsmentity[4][railsmentitycount]);//Y calculation for the tick
+                basetrigtemp = railsmentitydistance * cos(railsmentity[4][railsmentitycount]);//Base trig temporary var calculation
+                railsmentity[1][railsmentitycount] = railsmentity[1][railsmentitycount] + basetrigtemp * sin(railsmentity[5][railsmentitycount]);//X calculation for the tick
+                railsmentity[3][railsmentitycount] = railsmentity[3][railsmentitycount] + basetrigtemp * cos(railsmentity[5][railsmentitycount]);//Z calculation for the tick
+
+                if(railsmentity[6][railsmentitycount] < railsm[2]){//If entity is below max speed, accelerate
+                    railsmentity[6][railsmentitycount] = railsmentity[6][railsmentitycount] * (railsm[3] / 100 + 1);
+
+                    if(railsmentity[6][railsmentitycount] > railsm[2]){//If entity is above max speed, set speed as max speed
+                        railsmentity[6][railsmentitycount] = railsm[2];
+                    }
+                }
+                //hitbox detection and damage
+            }
+            else{
+                railsmentity[0][railentitycount] = 0;
+            }
+
+        }
+    }
+}
+    //detect hitbox
+    //loop or cause damage
+    //time wait according to rpm
+
+railsmentity::~railsmentity()
+{
+    //dtor
+}

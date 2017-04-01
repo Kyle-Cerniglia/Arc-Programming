@@ -1,0 +1,444 @@
+# depslib dependency file v1.0
+1424747293 source:b:\libraries\documents\programming\c programs\sg flight sim c++\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<stdbool.h>
+	<windows.h>
+	<iostream>
+	<unistd.h>
+	"console.h"
+	"ent1position.h"
+	"raycasting1.h"
+	"navigation.h"
+	"keyinput.h"
+	"catalogcelestial.h"
+	"gamemenu.h"
+	"catalogship.h"
+
+1423802652 b:\libraries\documents\programming\c programs\sg flight sim c++\test2.h
+
+1423802808 source:b:\libraries\documents\programming\c programs\sg flight sim c++\test2.cpp
+	"test2.h"
+	<iostream>
+
+1424746514 source:b:\libraries\documents\programming\c programs\sg flight sim c++\console.cpp
+	"console.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<stdbool.h>
+	<windows.h>
+	<unistd.h>
+
+1423881685 b:\libraries\documents\programming\c programs\sg flight sim c++\console.h
+
+1424746514 source:b:\libraries\documents\programming\c programs\sg flight sim c++\ent1position.cpp
+	"ent1position.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<stdbool.h>
+	<windows.h>
+
+1423804390 b:\libraries\documents\programming\c programs\sg flight sim c++\ent1position.h
+
+1424746514 source:b:\libraries\documents\programming\c programs\sg flight sim c++\raycasting1.cpp
+	"raycasting1.h"
+	"ent1position.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<stdbool.h>
+	<windows.h>
+
+1423804807 b:\libraries\documents\programming\c programs\sg flight sim c++\raycasting1.h
+
+1424746514 source:b:\libraries\documents\programming\c programs\sg flight sim c++\keyinput.cpp
+	"keyinput.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<stdbool.h>
+	<windows.h>
+	<unistd.h>
+
+1423805090 b:\libraries\documents\programming\c programs\sg flight sim c++\keyinput.h
+
+1423805288 b:\libraries\documents\programming\c programs\sg flight sim c++\navigation.h
+
+1424746514 source:b:\libraries\documents\programming\c programs\sg flight sim c++\navigation.cpp
+	"navigation.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<stdbool.h>
+	<windows.h>
+
+1424746514 source:b:\libraries\documents\programming\c programs\sg flight sim c++\catalogcelestial.cpp
+	"catalogcelestial.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<stdbool.h>
+	<windows.h>
+
+1423805939 b:\libraries\documents\programming\c programs\sg flight sim c++\catalogcelestial.h
+
+1424275620 b:\libraries\documents\programming\c programs\sg flight sim c++\gamemenu.h
+
+1424746514 source:b:\libraries\documents\programming\c programs\sg flight sim c++\hyperdrive.cpp
+	<iostream>
+	<stdio.h>
+	"hyperdrive.h"
+
+1424297424 b:\libraries\documents\programming\c programs\sg flight sim c++\hyperdrive.h
+
+1424746514 source:b:\libraries\documents\programming\c programs\sg flight sim c++\catalogcelestialdisplay.cpp
+	<iostream>
+	<stdio.h>
+	<strings.h>
+	<windows.h>
+	"catalogcelestialdisplay.h"
+	"catalogcelestial.h"
+
+1424297595 b:\libraries\documents\programming\c programs\sg flight sim c++\catalogcelestialdisplay.h
+
+1424320876 source:b:\libraries\documents\programming\c programs\sg flight sim c++\help.cpp
+	<iostream>
+	<stdio.h>
+	"help.h"
+
+1424297732 b:\libraries\documents\programming\c programs\sg flight sim c++\help.h
+
+1424746514 source:b:\libraries\documents\programming\c programs\sg flight sim c++\gamemenu.cpp
+	<iostream>
+	<stdio.h>
+	<windows.h>
+	<conio.h>
+	"gamemenu.h"
+	"hyperdrive.h"
+	"catalogcelestialdisplay.h"
+	"help.h"
+
+1424747156 b:\libraries\documents\programming\c programs\sg flight sim c++\catalogship.h
+
+1424927192 source:b:\libraries\documents\programming\c programs\sg flight sim c++\catalogship.cpp
+	<iostream>
+	<stdio.h>
+	"catalogship.h"
+
+1424927238 source:b:\libraries\documents\programming\c programs\sg flight sim c++\catalogweapon.cpp
+	<iostream>
+	"catalogweapon.h"
+
+1424924095 b:\libraries\documents\programming\c programs\sg flight sim c++\catalogweapon.h
+
+1436169629 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\catalogcelestial.cpp
+	"catalogcelestial.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1423805939 c:\users\kyle\documents\programming\c programs\sg flight sim c++\catalogcelestial.h
+
+1436169669 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\catalogcelestialdisplay.cpp
+	"catalogcelestialdisplay.h"
+	"catalogcelestial.h"
+	<iostream>
+	<stdio.h>
+	<strings.h>
+	<windows.h>
+	<conio.h>
+
+1424297595 c:\users\kyle\documents\programming\c programs\sg flight sim c++\catalogcelestialdisplay.h
+
+1436169705 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\catalogship.cpp
+	"catalogship.h"
+
+1424747156 c:\users\kyle\documents\programming\c programs\sg flight sim c++\catalogship.h
+
+1436170066 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\console.cpp
+	"console.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<windows.h>
+
+1423881685 c:\users\kyle\documents\programming\c programs\sg flight sim c++\console.h
+
+1429338819 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\ent1position.cpp
+	"ent1position.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<stdbool.h>
+	<windows.h>
+
+1423804390 c:\users\kyle\documents\programming\c programs\sg flight sim c++\ent1position.h
+
+1435634752 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\gamemenu.cpp
+	"gamemenu.h"
+	"hyperdrive.h"
+	"catalogcelestialdisplay.h"
+	"help.h"
+	"shipmodulestatus.h"
+	<iostream>
+	<stdio.h>
+	<windows.h>
+	<conio.h>
+	<time.h>
+
+1424275620 c:\users\kyle\documents\programming\c programs\sg flight sim c++\gamemenu.h
+
+1424297424 c:\users\kyle\documents\programming\c programs\sg flight sim c++\hyperdrive.h
+
+1424297732 c:\users\kyle\documents\programming\c programs\sg flight sim c++\help.h
+
+1429316637 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\help.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"help.h"
+
+1436171966 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\hyperdrive.cpp
+	"hyperdrive.h"
+	"main.h"
+	<iostream>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<conio.h>
+	<windows.h>
+
+1429735739 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\keyinput.cpp
+	"keyinput.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<stdbool.h>
+	<windows.h>
+	<unistd.h>
+
+1423805090 c:\users\kyle\documents\programming\c programs\sg flight sim c++\keyinput.h
+
+1436244008 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\main.cpp
+	"console.h"
+	"ent1position.h"
+	"raycasting1.h"
+	"navigation.h"
+	"keyinput.h"
+	"catalogcelestial.h"
+	"gamemenu.h"
+	"catalogship.h"
+	"entityconsole.h"
+	"shipload.h"
+	"hyperdrive.h"
+	"catalogweapon.h"
+	"weaponfire.h"
+	"railsmentity.h"
+	"gui.h"
+	"shieldregen.h"
+	"testsettings.h"
+	"powerregen.h"
+	"shipmodulestatus.h"
+	"hitboxcollision.h"
+	"catalogindustry.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<stdbool.h>
+	<windows.h>
+	<iostream>
+	<unistd.h>
+
+1423804807 c:\users\kyle\documents\programming\c programs\sg flight sim c++\raycasting1.h
+
+1423805288 c:\users\kyle\documents\programming\c programs\sg flight sim c++\navigation.h
+
+1435035337 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\navigation.cpp
+	"navigation.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<stdbool.h>
+	<windows.h>
+
+1429338819 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\raycasting1.cpp
+	"raycasting1.h"
+	"ent1position.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<stdbool.h>
+	<windows.h>
+
+1429593132 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\catalogweapon.cpp
+	"catalogweapon.h"
+
+1424924095 c:\users\kyle\documents\programming\c programs\sg flight sim c++\catalogweapon.h
+
+1425669747 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\laserfire.cpp
+	"laserfire.h"
+
+1425669540 c:\users\kyle\documents\programming\c programs\sg flight sim c++\laserfire.h
+
+1436172296 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\missilefire.cpp
+	"missilefire.h"
+	<stdio.h>
+
+1425667982 c:\users\kyle\documents\programming\c programs\sg flight sim c++\missilefire.h
+
+1425795109 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\src\weaponfireentity.cpp
+	"weaponfireentity.h"
+
+1425794117 c:\users\kyle\documents\programming\c programs\sg flight sim c++\include\weaponfireentity.h
+
+1428170387 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\entityconsole.cpp
+	"entityconsole.h"
+	<stdio.h>
+	<windows.h>
+
+1425931231 c:\users\kyle\documents\programming\c programs\sg flight sim c++\entityconsole.h
+
+1427066378 c:\users\kyle\documents\programming\c programs\sg flight sim c++\shipload.h
+
+1428170393 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\railsmentity.cpp
+	"railsmentity.h"
+	"weaponfire.h"
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+
+1427066038 c:\users\kyle\documents\programming\c programs\sg flight sim c++\railsmentity.h
+
+1435634785 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\shipload.cpp
+	"shipload.h"
+	"catalogship.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<math.h>
+
+1429735688 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\weaponfire.cpp
+	"weaponfire.h"
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+
+1425668047 c:\users\kyle\documents\programming\c programs\sg flight sim c++\weaponfire.h
+
+1436172050 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\locationload.cpp
+	"locationload.h"
+	"catalogcelestial.h"
+
+1427069359 c:\users\kyle\documents\programming\c programs\sg flight sim c++\locationload.h
+
+1424275043 c:\users\kyle\documents\programming\c programs\sg flight sim c++\main.h
+
+1429339060 c:\users\kyle\documents\programming\c programs\sg flight sim c++\display.h
+
+1429339414 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\display.cpp
+	"display.h"
+	"catalogcelestial.h"
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+
+1436248164 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\moduledamage.cpp
+	"moduledamage.h"
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+
+1429324454 c:\users\kyle\documents\programming\c programs\sg flight sim c++\moduledamage.h
+
+1436248147 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\gui.cpp
+	"gui.h"
+	"catalogcelestial.h"
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<conio.h>
+
+1429376999 c:\users\kyle\documents\programming\c programs\sg flight sim c++\gui.h
+
+1429379409 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\catalogentity.cpp
+	"catalogentity.h"
+
+1429379409 c:\users\kyle\documents\programming\c programs\sg flight sim c++\catalogentity.h
+
+1429995313 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\shieldregen.cpp
+	"shieldregen.h"
+
+1429946959 c:\users\kyle\documents\programming\c programs\sg flight sim c++\shieldregen.h
+
+1429948200 c:\users\kyle\documents\programming\c programs\sg flight sim c++\testsettings.h
+
+1430105307 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\testsettings.cpp
+	"testsettings.h"
+	"moduledamage.h"
+
+1429995784 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\powerregen.cpp
+	"powerregen.h"
+
+1429994798 c:\users\kyle\documents\programming\c programs\sg flight sim c++\powerregen.h
+
+1430104419 c:\users\kyle\documents\programming\c programs\sg flight sim c++\shipmodulestatus.h
+
+1430105071 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\shipmodulestatus.cpp
+	"shipmodulestatus.h"
+	"stdio.h"
+	"conio.h"
+	"windows.h"
+
+1430168350 c:\users\kyle\documents\programming\c programs\sg flight sim c++\hitboxcollision.h
+
+1436170541 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\hitboxcollision.cpp
+	"hitboxcollision.h"
+	<stdlib.h>
+	<math.h>
+
+1430588336 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\opengltest.cpp
+	"opengltest.h"
+	<windows.h>
+	<GL/gl.h>
+	<GL/GLAux.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1430587682 c:\users\kyle\documents\programming\c programs\sg flight sim c++\opengltest.h
+
+1435634759 source:c:\users\kyle\documents\programming\c programs\sg flight sim c++\catalogindustry.cpp
+	"catalogindustry.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1435108597 c:\users\kyle\documents\programming\c programs\sg flight sim c++\catalogindustry.h
+
